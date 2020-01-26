@@ -196,7 +196,7 @@ export default {
 		return {
 			file_navigation: TabSystem.getCurrentNavigation(),
 			render_object: this.computed_object(),
-			is_on_screen: false,
+			is_on_screen: true,
 		}
 	},
 	computed: {
